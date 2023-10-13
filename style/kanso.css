@@ -6,7 +6,7 @@
 }
 
 body {
-  height: 200rem;
+  height: 150rem;
 }
 
 .navbar {
@@ -93,4 +93,71 @@ body {
   font-weight: bold;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
+}
+
+.section4-elements {
+  height: 50rem;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.section4-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.image-card .image-desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section4-cards p {
+  display: inline;
+}
+
+.section4-container .section4-elements h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #2e3257;
+}
+
+.section4-container .section4-elements #sub-title {
+  font-family: "Montserrat", sans-serif;
+  color: #627d9a;
+  margin-top: 0.5rem;
+}
+
+.section4-container .section4-elements a {
+  font-family: "Montserrat", sans-serif;
+  color: #627d9a;
+  text-decoration: none;
+  margin-top: 1.5rem;
+}
+
+.section4-container .section4-elements .product-name,
+.product-price {
+  font-family: "Montserrat", sans-serif;
+  color: #2e3257;
+  font-weight: bold;
+}
+
+.section4-container .section4-elements .product-type {
+  font-family: "Montserrat", sans-serif;
+  color: #2e3257;
+}
+
+.image-card img {
+  margin-bottom: 10px;
 }
