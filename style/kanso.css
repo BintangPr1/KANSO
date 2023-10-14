@@ -6,7 +6,7 @@
 }
 
 body {
-  height: 150rem;
+  height: 300rem;
 }
 
 .navbar {
@@ -95,8 +95,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.section4-container {
+  margin-bottom: 100px;
+}
+
 .section4-elements {
-  height: 50rem;
   width: 85%;
   margin-left: auto;
   margin-right: auto;
@@ -144,6 +147,7 @@ body {
   color: #627d9a;
   text-decoration: none;
   margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .section4-container .section4-elements .product-name,
@@ -160,4 +164,13 @@ body {
 
 .image-card img {
   margin-bottom: 10px;
+}
+
+.quote-section {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #2e3257;
+  font-family: "Montserrat", sans-serif;
 }
