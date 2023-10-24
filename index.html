@@ -11,6 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <style>
       /* font-family: "Major Mono Display", monospace;
@@ -21,8 +26,10 @@
     <nav>
       <div class="navbar">
         <div class="logo">
-          <a href=""><img src="./assets/Rectangle 44.png" alt="" /></a>
-          <a href=""><img src="./assets/kanso.png" alt="" /></a>
+          <a href="./index.html"
+            ><img src="./assets/Rectangle 44.png" alt=""
+          /></a>
+          <a href="./index.html"><img src="./assets/kanso.png" alt="" /></a>
         </div>
 
         <div class="nav-list">
@@ -32,7 +39,7 @@
         </div>
 
         <div>
-          <img src="./assets/nav-line.svg" alt="" />
+          <img class="line" src="./assets/nav-line.svg" alt="" />
         </div>
 
         <div class="nav-button">
@@ -48,11 +55,11 @@
     </section>
 
     <section>
-      <div class="section3-container">
+      <div data-aos="fade-up" class="section3-container">
         <div class="section3-elements">
           <img src="./assets/kanji-logo2.svg" alt="" />
           <p>EXPERIENCE BEAUTY IN SIMPLICITY AND CALMNESS</p>
-          <button>GO TO ABOUT US</button>
+          <a id="section3-btn" href="">GO TO ABOUT US</a>
         </div>
       </div>
     </section>
@@ -63,33 +70,39 @@
           <h2>FEATURED PRODUCTS</h2>
           <p id="sub-title">See all of our latest fresh products</p>
 
-          <a href="">VIEW ALL</a>
+          <a id="view-all-btn" href="">VIEW ALL</a>
 
           <div class="section4-cards">
-            <div class="image-card">
-              <img src="./assets/product1.png" alt="" />
-              <div class="image-desc">
-                <p class="product-name">KINTSUGI</p>
-                <p class="product-price">IDR 250.000</p>
+            <a class="image-card-link" href="">
+              <div data-aos="fade-up" class="image-card">
+                <img src="./assets/product1.png" alt="" />
+                <div class="image-desc">
+                  <p class="product-name">KINTSUGI</p>
+                  <p class="product-price">IDR 250.000</p>
+                </div>
+                <p class="product-type">T-Shirts</p>
               </div>
-              <p class="product-type">T-Shirts</p>
-            </div>
-            <div class="image-card">
-              <img src="./assets/product2.png" alt="" />
-              <div class="image-desc">
-                <p class="product-name">KOMOREBI</p>
-                <p class="product-price">IDR 450.000</p>
+            </a>
+            <a class="image-card-link" href="">
+              <div data-aos="fade-up" class="image-card">
+                <img src="./assets/product2.png" alt="" />
+                <div class="image-desc">
+                  <p class="product-name">KOMOREBI</p>
+                  <p class="product-price">IDR 450.000</p>
+                </div>
+                <p class="product-type">Hoodies</p>
               </div>
-              <p class="product-type">Hoodies</p>
-            </div>
-            <div class="image-card">
-              <img src="./assets/product3.png" alt="" />
-              <div class="image-desc">
-                <p class="product-name">KANSO - BLUE OCEAN</p>
-                <p class="product-price">IDR 80.000</p>
+            </a>
+            <a class="image-card-link" href="">
+              <div data-aos="fade-up" class="image-card">
+                <img src="./assets/product3.png" alt="" />
+                <div class="image-desc">
+                  <p class="product-name">KANSO - BLUE OCEAN</p>
+                  <p class="product-price">IDR 80.000</p>
+                </div>
+                <p class="product-type">Tote Bag</p>
               </div>
-              <p class="product-type">Tote Bag</p>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -99,14 +112,45 @@
       <h2>"Living in the moment, detached from the bothers of life"</h2>
     </div>
 
-    <div class="section5-container">
+    <div data-aos="fade-up" class="section5-container">
       <button>VISIT OUR GALLERY</button>
     </div>
 
     <footer>
       <div class="footer">
-        <div class="footer-logo"></div>
+        <img id="footer-logo" src="./assets/KansoFooterLogo.svg" alt="" />
+
+        <div class="sitemap footer-info">
+          <h3>SITEMAP</h3>
+          <a href="">Home</a>
+          <a href="">Collections</a>
+          <a href="">Gallery</a>
+          <a href="">Profile</a>
+        </div>
+        <div class="social-media footer-info">
+          <h3>SOCIAL MEDIA</h3>
+          <a href="">Instagram</a>
+          <a href="">Youtube</a>
+          <a href="">X/Twitter</a>
+          <a href="">Facebook</a>
+        </div>
+        <div class="contact footer-info">
+          <h3>CONTACT</h3>
+          <a href="mailto:kansoclothing14@gmail.com"
+            >kansiclothing14@gmail.com</a
+          >
+          <a href="">(123) 456-7890</a>
+        </div>
+      </div>
+      <div class="termsconditions">
+        <a href="">©2023 KANSO</a>
+        <a href="">PRIVACY POLICY</a>
+        <a href="">TERMS & CONDITIONS</a>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
