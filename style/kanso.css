@@ -338,8 +338,7 @@
     font-size: 15px;
   }
 
-  .line,
-  .nav-button img {
+  .line {
     display: none;
   }
 
@@ -376,16 +375,33 @@
 }
 
 @media (max-width: 420px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
   .navbar .nav-list a {
     font-size: 15px;
   }
 
-  .line,
-  .nav-button img {
-    display: none;
+  .navbar .nav-list {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .hero-image {
+  .navbar .nav-button {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    justify-content: space-between;
+  }
+
+  .line,
+  .hero-image,
+  .logo a {
     display: none;
   }
 
