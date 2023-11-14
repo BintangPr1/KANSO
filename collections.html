@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>T-Shirts | KANSO</title>
-    <link rel="stylesheet" href="./style/tshirt.css" />
+    <title>Accesories | KANSO</title>
+    <link rel="stylesheet" href="./style/collections.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -51,7 +51,7 @@
         <a class="nav-link fs-6" href="#">SALES</a>
       </li>
       <li class="nav-item mx-4">
-        <a class="nav-link fs-6 fw-bold" href="#">T-SHIRTS</a>
+        <a class="nav-link fs-6" href="./tshirts.html">T-SHIRTS</a>
       </li>
       <li class="nav-item mx-4">
         <a class="nav-link fs-6" href="./hoodies.html">HOODIES</a>
@@ -68,77 +68,122 @@
       <input
         class="form-control me-2 w-50 border-2 border-dark rounded 3"
         type="search"
-        placeholder="Search in T-SHIRTS"
+        placeholder="What are you searching for today?"
         aria-label="Search"
       />
       <a href=""><img src="./assets/search-button.svg" alt="" /></a>
     </div>
 
-    <h2 class="mt-5 collection-title fw-bold">T-SHIRTS</h2>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide mt-5"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./assets/hero-image-collections.png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: #2e3257; font-family: Montserrat, sans-serif">
+              KINTSUGI COLLECTION VOL.1
+            </h5>
+            <a
+              class="px-3 py-1 fw-bold text-decoration-none border border-dark rounded-pill carousel-button-css"
+              href=""
+              style="
+                background-color: #dfc5a4;
+                color: #2e3257;
+                font-family: Montserrat, sans-serif;
+              "
+              >SHOP NOW</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- card section -->
+    <div data-aos="fade-up" class="row row-cols-1 row-cols-md-2 g-4 mt-5 mx-5">
+      <a style="text-decoration: none" href="">
+        <div class="col">
+          <img
+            src="./assets/Collection-name-temp.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <p
+              class="fs-5 card-title text-center fw-bold"
+              style="color: #2e3257; font-family: Montserrat, sans-serif"
+            >
+              KINTSUGI COLLECTION
+            </p>
+          </div>
+        </div>
+      </a>
+      <a class="image-card-css" style="text-decoration: none" href="">
+        <div class="col">
+          <img
+            src="./assets/Collection-name-temp.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <p
+              class="fs-5 card-title text-center fw-bold"
+              style="color: #2e3257; font-family: Montserrat, sans-serif"
+            >
+              KOMOREBI COLLECTION
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div
+      style="color: #2e3257; font-family: Montserrat, sans-serif"
+      class="mt-5"
+    >
+      <h2 class="fw-bold text-center">Latest Collection</h2>
+      <p class="text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+      </p>
+    </div>
+
     <section>
       <div class="section4-container">
         <div class="section4-elements">
           <div class="section4-cards">
             <a class="image-card-link" href="">
               <div data-aos="fade-up" class="image-card">
-                <img src="./assets/product1.png" alt="" />
+                <img src="./assets/product2.png" alt="" />
                 <div class="image-desc">
-                  <p class="product-name">KINTSUGI</p>
-                  <p class="product-price">IDR 250.000</p>
+                  <p class="product-name">KOMOREBI</p>
+                  <p class="product-price">IDR 450.000</p>
                 </div>
-                <p class="product-type">T-Shirts</p>
+                <p class="product-type">Hoodies</p>
               </div>
             </a>
             <a class="image-card-link" href="">
               <div data-aos="fade-up" class="image-card">
-                <img src="./assets/product1.png" alt="" />
+                <img src="./assets/product2.png" alt="" />
                 <div class="image-desc">
-                  <p class="product-name">KINTSUGi</p>
-                  <p class="product-price">IDR 250.000</p>
+                  <p class="product-name">KOMOREBI</p>
+                  <p class="product-price">IDR 450.000</p>
                 </div>
-                <p class="product-type">T-Shirts</p>
+                <p class="product-type">Hoodies</p>
               </div>
             </a>
             <a class="image-card-link" href="">
               <div data-aos="fade-up" class="image-card">
-                <img src="./assets/product1.png" alt="" />
+                <img src="./assets/product2.png" alt="" />
                 <div class="image-desc">
-                  <p class="product-name">KINTSUGI</p>
-                  <p class="product-price">IDR 250.000</p>
+                  <p class="product-name">KOMOREBI</p>
+                  <p class="product-price">IDR 450.000</p>
                 </div>
-                <p class="product-type">T-Shirts</p>
-              </div>
-            </a>
-            <a class="image-card-link" href="">
-              <div data-aos="fade-up" class="image-card">
-                <img src="./assets/product1.png" alt="" />
-                <div class="image-desc">
-                  <p class="product-name">KINTSUGI</p>
-                  <p class="product-price">IDR 250.000</p>
-                </div>
-                <p class="product-type">T-Shirts</p>
-              </div>
-            </a>
-            <a class="image-card-link" href="">
-              <div data-aos="fade-up" class="image-card">
-                <img src="./assets/product1.png" alt="" />
-                <div class="image-desc">
-                  <p class="product-name">KINTSUGI</p>
-                  <p class="product-price">IDR 250.000</p>
-                </div>
-                <p class="product-type">T-Shirts</p>
-              </div>
-            </a>
-            <a class="image-card-link" href="">
-              <div data-aos="fade-up" class="image-card">
-                <img src="./assets/product1.png" alt="" />
-                <div class="image-desc">
-                  <p class="product-name">KINTSUGI</p>
-                  <p class="product-price">IDR 250.000</p>
-                </div>
-                <p class="product-type">T-Shirts</p>
+                <p class="product-type">Hoodies</p>
               </div>
             </a>
             <a class="image-card-link" href="">
